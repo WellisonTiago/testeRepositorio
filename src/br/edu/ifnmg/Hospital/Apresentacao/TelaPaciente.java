@@ -214,7 +214,7 @@ public class TelaPaciente extends javax.swing.JFrame {
     }//GEN-LAST:event_txtCPFActionPerformed
 
     private void exibirMensagemErro(String mensagem) {
-        JOptionPane.showMessageDialog(this, mensagem, "Erro ao Cadastrar Paciente", JOptionPane.ERROR_MESSAGE);
+        JOptionPane.showMessageDialog(this, mensagem, "Erro", JOptionPane.ERROR_MESSAGE);
     }
 
     private void exibirMensagemSucesso(String mensagem) {
